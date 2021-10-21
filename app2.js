@@ -64,6 +64,9 @@ $(document).ready(function () {
         var id = $(this).attr('data-key');
         mainVid(id);
     });
-
-
 });
+
+// click vào logo tải lại trang
+function load(){
+    location.reload();
+}
