@@ -12,7 +12,7 @@ $(document).ready(function () {
     var options = {
         part: 'snippet',
         key: key,
-        maxResults: 20,
+        maxResults: 50,
         playlistId: playlistId
     }
 
@@ -30,7 +30,7 @@ $(document).ready(function () {
     // thêm video vào html (id=#video)
     function mainVid(id) {
         $('#video').html(`
-					<iframe src="https://www.youtube.com/embed/${id}" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					<iframe src="https://www.youtube.com/embed/${id}?autoplay=1" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 				`);
     }
 
