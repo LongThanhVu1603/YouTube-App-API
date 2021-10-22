@@ -102,3 +102,55 @@ article:hover{
 .details {
 	padding: 8px 22px;
 }
+
+@media (min-width:415px) {
+	#video{
+		width: 560px;
+		height: 315px;
+	}
+
+	iframe{
+		width: 100%;
+		height: 100%;
+	}
+}
+
+@media (max-width: 414px){
+	.container{
+		width: 410px;
+	}
+
+	#video{
+		width: 414px;
+		height: 260px;
+	}
+
+	iframe{
+		width: 100%;
+		height: 100%;
+	}
+
+	header {
+		width: 414px;
+	}
+
+	main {
+		padding: 300px 0px 10px;
+	}
+
+	.details {
+		padding: 0px 10px 0px 10px;
+	}
+
+	h4 {
+		font-size: 12px;
+	}
+
+	p{
+		font-size: 8px;
+	}
+
+	article {
+		padding: 12px;
+	}
+}
